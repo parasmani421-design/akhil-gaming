@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AKHIL GAMING Tournament</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-glow"></div>
+
+<header>
+    <h1>AKHIL GAMING</h1>
+    <p>Clash Squad Tournament</p>
+</header>
+
+<section class="container">
+
+    <!-- ENTRY SECTION -->
+    <div class="card entry-card">
+        <h2>Select Mode</h2>
+
+        <div class="mode" onclick="selectMode('1v1')">1v1</div>
+        <div class="mode" onclick="selectMode('2v2')">2v2</div>
+        <div class="mode" onclick="selectMode('3v3')">3v3</div>
+        <div class="mode" onclick="selectMode('4v4')">4v4</div>
+    </div>
+
+    <!-- ENTRY FEE DISPLAY -->
+    <div class="card">
+        <h2>Entry Fee</h2>
+        <p id="entryText">Select a Mode</p>
+    </div>
+
+    <!-- PRIZE DISPLAY -->
+    <div class="card">
+        <h2>Prize Pool</h2>
+        <p id="prizeText">Select a Mode to View Prize</p>
+    </div>
+
+    <!-- REGISTER -->
+    <div class="card">
+        <button onclick="registerMode()">🚀 Register Now</button>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 AKHIL GAMING
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
